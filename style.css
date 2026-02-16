@@ -8,10 +8,11 @@ body {
 	background-image: url("thomas-turnbull.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center top;
 	background-color: #2a3036;
+	min-height: 100vh;
 	margin: 0;
-	font-family: system-ui, -apple-system, sans-serif;
+	font-family: 'News Cycle', sans-serif;
 }
 
 #header {
@@ -35,6 +36,10 @@ h2 {
 
 h1, h2 {
 	text-shadow: 2px 2px #2a293e;
+}
+
+#social {
+	margin-top: 1em;
 }
 
 #social a {
